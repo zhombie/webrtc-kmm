@@ -1,10 +1,10 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCBundlePolicy
-import WebRTC.RTCConfiguration
-import WebRTC.RTCIceTransportPolicy
-import WebRTC.RTCRtcpMuxPolicy
-import WebRTC.RTCSdpSemantics
+import cocoapods.WebRTC.RTCBundlePolicy
+import cocoapods.WebRTC.RTCConfiguration
+import cocoapods.WebRTC.RTCIceTransportPolicy
+import cocoapods.WebRTC.RTCRtcpMuxPolicy
+import cocoapods.WebRTC.RTCSdpSemantics
 
 actual class RtcConfiguration actual constructor(
     bundlePolicy: BundlePolicy,

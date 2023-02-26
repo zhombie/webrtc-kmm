@@ -1,6 +1,6 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCLegacyStatsReport
+import cocoapods.WebRTC.RTCLegacyStatsReport
 
 actual class RtcStatsReport(val native: RTCLegacyStatsReport) {
     actual val timestampUs: Long = (native.timestamp * 1_000_000).toLong()

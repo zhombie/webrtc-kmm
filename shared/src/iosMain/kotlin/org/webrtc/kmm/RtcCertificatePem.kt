@@ -1,6 +1,6 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCCertificate
+import cocoapods.WebRTC.RTCCertificate
 
 actual class RtcCertificatePem(val native: RTCCertificate) {
     actual val privateKey: String

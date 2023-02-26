@@ -1,6 +1,6 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCDtmfSenderProtocol
+import cocoapods.WebRTC.RTCDtmfSenderProtocol
 
 actual class DtmfSender(val native: RTCDtmfSenderProtocol) {
 

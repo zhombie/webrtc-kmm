@@ -1,6 +1,6 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCAudioTrack
+import cocoapods.WebRTC.RTCAudioTrack
 
 actual class AudioStreamTrack internal constructor(ios: RTCAudioTrack) : MediaStreamTrack(ios) {
 

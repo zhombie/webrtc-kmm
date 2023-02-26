@@ -1,8 +1,8 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCVideoFrame
-import WebRTC.RTCVideoRendererProtocol
-import WebRTC.RTCVideoTrack
+import cocoapods.WebRTC.RTCVideoFrame
+import cocoapods.WebRTC.RTCVideoRendererProtocol
+import cocoapods.WebRTC.RTCVideoTrack
 import kotlinx.cinterop.CValue
 import platform.CoreGraphics.CGSize
 import platform.Foundation.NSTimeInterval
@@ -82,7 +82,7 @@ actual class VideoStreamTrack internal constructor(
             frameCount.increment()
         }
 
-        override fun setSize(size: CValue<CGSize>) {
+        override fun setSize(size: CValue<cocoapods.WebRTC.CGSize>) {
             // do nothing
         }
 

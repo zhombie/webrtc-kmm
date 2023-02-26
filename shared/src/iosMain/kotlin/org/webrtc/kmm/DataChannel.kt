@@ -1,9 +1,9 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCDataBuffer
-import WebRTC.RTCDataChannel
-import WebRTC.RTCDataChannelDelegateProtocol
-import WebRTC.RTCDataChannelState
+import cocoapods.WebRTC.RTCDataBuffer
+import cocoapods.WebRTC.RTCDataChannel
+import cocoapods.WebRTC.RTCDataChannelDelegateProtocol
+import cocoapods.WebRTC.RTCDataChannelState
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.channels.trySendBlocking
 import kotlinx.coroutines.flow.Flow

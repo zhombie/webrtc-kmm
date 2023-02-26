@@ -1,6 +1,6 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCIceCandidate
+import cocoapods.WebRTC.RTCIceCandidate
 
 actual class IceCandidate internal constructor(val native: RTCIceCandidate) {
     actual constructor(sdpMid: String, sdpMLineIndex: Int, candidate: String) : this(

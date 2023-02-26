@@ -1,6 +1,6 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCRtpSender
+import cocoapods.WebRTC.RTCRtpSender
 
 actual class RtpSender(val native: RTCRtpSender, track: MediaStreamTrack?) {
     actual val id: String

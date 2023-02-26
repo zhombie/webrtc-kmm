@@ -1,7 +1,7 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCIceServer
-import WebRTC.RTCTlsCertPolicy
+import cocoapods.WebRTC.RTCIceServer
+import cocoapods.WebRTC.RTCTlsCertPolicy
 
 actual class IceServer internal constructor(val native: RTCIceServer) {
     actual constructor(

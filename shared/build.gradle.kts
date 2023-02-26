@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
+
 plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
@@ -5,6 +7,7 @@ plugins {
 }
 
 kotlin {
+    val coreVersion = "1.9.0"
     android()
     iosX64()
     iosArm64()
@@ -18,7 +21,22 @@ kotlin {
         framework {
             baseName = "shared"
         }
+        pod("WebRTC-SDK",moduleName = "WebRTC", version = "~> 104.5112.11")
     }
+
+//    val packForXcode by tasks.creating(Sync::class) {
+//        group = "build"
+//        val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
+//        val sdkName = System.getenv("SDK_NAME") ?: "iphonesimulator"
+//        val targetName = "ios" + if (sdkName.startsWith("iphoneos")) "Arm64" else "X64"
+//        val framework = kotlin.targets.getByName<KotlinNativeTarget>(targetName).binaries.getFramework(mode)
+//        inputs.property("mode", mode)
+//        dependsOn(framework.linkTask)
+//        val targetDir = File(buildDir, "xcode-frameworks")
+//        from({ framework.outputDirectory })
+//        into(targetDir)
+//    }
+//    tasks.getByName("build").dependsOn(packForXcode)
     
     sourceSets {
         val commonMain by getting {
@@ -35,6 +53,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 api("com.github.webrtc-sdk:android:104.5112.07")
+                implementation("androidx.core:core:$coreVersion")
             }
         }
         val androidTest by getting

@@ -1,7 +1,7 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCSdpType
-import WebRTC.RTCSessionDescription
+import cocoapods.WebRTC.RTCSdpType
+import cocoapods.WebRTC.RTCSessionDescription
 
 internal fun SessionDescription.asIos(): RTCSessionDescription {
     return RTCSessionDescription(type.asIos(), sdp)

@@ -1,7 +1,7 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCCameraVideoCapturer
-import WebRTC.RTCVideoSource
+import cocoapods.WebRTC.RTCCameraVideoCapturer
+import cocoapods.WebRTC.RTCVideoSource
 import kotlinx.cinterop.useContents
 import platform.AVFoundation.AVCaptureDevice
 import platform.AVFoundation.AVCaptureDeviceFormat

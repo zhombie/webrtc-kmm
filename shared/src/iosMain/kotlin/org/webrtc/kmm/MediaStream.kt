@@ -1,8 +1,8 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCAudioTrack
-import WebRTC.RTCMediaStream
-import WebRTC.RTCVideoTrack
+import cocoapods.WebRTC.RTCAudioTrack
+import cocoapods.WebRTC.RTCMediaStream
+import cocoapods.WebRTC.RTCVideoTrack
 import platform.Foundation.NSUUID
 
 actual class MediaStream internal constructor(

@@ -1,16 +1,16 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCCleanupSSL
-import WebRTC.RTCDefaultVideoDecoderFactory
-import WebRTC.RTCDefaultVideoEncoderFactory
-import WebRTC.RTCInitFieldTrialDictionary
-import WebRTC.RTCInitializeSSL
-import WebRTC.RTCLoggingSeverity
-import WebRTC.RTCPeerConnectionFactory
-import WebRTC.RTCPeerConnectionFactoryOptions
-import WebRTC.RTCSetMinDebugLogLevel
-import WebRTC.RTCSetupInternalTracer
-import WebRTC.RTCShutdownInternalTracer
+import cocoapods.WebRTC.RTCCleanupSSL
+import cocoapods.WebRTC.RTCDefaultVideoDecoderFactory
+import cocoapods.WebRTC.RTCDefaultVideoEncoderFactory
+import cocoapods.WebRTC.RTCInitFieldTrialDictionary
+import cocoapods.WebRTC.RTCInitializeSSL
+import cocoapods.WebRTC.RTCLoggingSeverity
+import cocoapods.WebRTC.RTCPeerConnectionFactory
+import cocoapods.WebRTC.RTCPeerConnectionFactoryOptions
+import cocoapods.WebRTC.RTCSetMinDebugLogLevel
+import cocoapods.WebRTC.RTCSetupInternalTracer
+import cocoapods.WebRTC.RTCShutdownInternalTracer
 
 @ThreadLocal
 actual object WebRtc {

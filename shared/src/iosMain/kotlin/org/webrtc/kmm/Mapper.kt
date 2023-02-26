@@ -1,9 +1,9 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCIceConnectionState
-import WebRTC.RTCIceGatheringState
-import WebRTC.RTCPeerConnectionState
-import WebRTC.RTCSignalingState
+import cocoapods.WebRTC.RTCIceConnectionState
+import cocoapods.WebRTC.RTCIceGatheringState
+import cocoapods.WebRTC.RTCPeerConnectionState
+import cocoapods.WebRTC.RTCSignalingState
 
 internal fun rtcSignalingStateAsCommon(state: RTCSignalingState): SignalingState {
     return when (state) {

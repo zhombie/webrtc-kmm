@@ -1,10 +1,10 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCRtcpParameters
-import WebRTC.RTCRtpCodecParameters
-import WebRTC.RTCRtpEncodingParameters
-import WebRTC.RTCRtpHeaderExtension
-import WebRTC.RTCRtpParameters
+import cocoapods.WebRTC.RTCRtcpParameters
+import cocoapods.WebRTC.RTCRtpCodecParameters
+import cocoapods.WebRTC.RTCRtpEncodingParameters
+import cocoapods.WebRTC.RTCRtpHeaderExtension
+import cocoapods.WebRTC.RTCRtpParameters
 
 actual class RtpParameters(val native: RTCRtpParameters) {
     actual val codecs: List<RtpCodecParameters>

@@ -1,7 +1,7 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCRtpTransceiver
-import WebRTC.RTCRtpTransceiverDirection
+import cocoapods.WebRTC.RTCRtpTransceiver
+import cocoapods.WebRTC.RTCRtpTransceiverDirection
 import kotlinx.cinterop.alloc
 import kotlinx.cinterop.memScoped
 import kotlinx.cinterop.ptr

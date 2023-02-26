@@ -1,7 +1,7 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCCameraVideoCapturer
-import WebRTC.RTCMediaConstraints
+import cocoapods.WebRTC.RTCCameraVideoCapturer
+import cocoapods.WebRTC.RTCMediaConstraints
 import platform.AVFoundation.AVCaptureDevice
 import platform.Foundation.NSUUID
 

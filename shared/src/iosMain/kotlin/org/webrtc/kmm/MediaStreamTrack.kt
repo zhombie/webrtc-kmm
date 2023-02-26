@@ -1,11 +1,11 @@
 package org.webrtc.kmm
 
-import WebRTC.RTCAudioTrack
-import WebRTC.RTCMediaStreamTrack
-import WebRTC.RTCMediaStreamTrackState
-import WebRTC.RTCVideoTrack
-import WebRTC.kRTCMediaStreamTrackKindAudio
-import WebRTC.kRTCMediaStreamTrackKindVideo
+import cocoapods.WebRTC.RTCAudioTrack
+import cocoapods.WebRTC.RTCMediaStreamTrack
+import cocoapods.WebRTC.RTCMediaStreamTrackState
+import cocoapods.WebRTC.RTCVideoTrack
+import cocoapods.WebRTC.kRTCMediaStreamTrackKindAudio
+import cocoapods.WebRTC.kRTCMediaStreamTrackKindVideo
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
